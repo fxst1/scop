@@ -6,13 +6,13 @@
 #    By: fxst1 <fxst1@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/12 10:57:23 by fxst1             #+#    #+#              #
-#    Updated: 2018/04/24 19:45:29 by fxst1            ###   ########.fr        #
+#    Updated: 2018/04/25 12:37:29 by fxst1            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 CC = cc
 FLAGS = -Wall -Wextra -Werror -g
 NAME = scop
-INC = -I inc/ -I minilibx/ -I fmod/fmod/inc
+INC = -I inc/
 LIBS = -lm -lGLU -lGLEW -lglfw -lGL
 OBJDIR = ./obj/
 
